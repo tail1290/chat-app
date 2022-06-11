@@ -1,0 +1,147 @@
+.wrapper{
+  display:flex;
+}
+
+.side-bars {
+  background-color: #2F3E51;
+  width:300px;
+  height:calc(100vh - 100px);
+  overflow: scroll;
+}
+
+.side-bars a{
+  text-decoration: none;
+  color:white;
+  padding: 20px 20px 40px 20px;
+}
+
+.side_header{
+  background-color: #253141;
+  width:300px;
+  height:100px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_header{
+  display: flex;
+  background-color:#FFFFFF;
+  width:calc(100vw - 300px);
+  height:100px;
+  padding:0px 40px 0px 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-content{
+  background-color:#FAFAFA;
+  height:calc(100vh - 190px);
+  width:calc(100vw - 300px);
+  padding:46px 40px 0px 40px;
+  overflow:scroll;
+}
+
+.main_footer{
+  background-color: #DDDDDD;
+  width:calc(100vw - 300px);
+  height:90px;
+  padding:20px 40px 20px 40px;
+}
+
+.NAME a{
+  text-decoration: none;
+  color:white;
+  font-size:16px;
+}
+
+.room_create a{
+  text-decoration: none;
+  border:1px solid lightblue;
+  padding:14px;
+  margin-right: 20px;
+  color: deepskyblue;
+  font-size:10px;
+}
+
+.bar{
+  padding:20px 0px 40px;
+}
+
+.room_name a{
+  text-decoration: none;
+  color:#333;
+  font-size: 24px;
+  padding:36px 0px 0px 40px;
+}
+
+.room_end a{
+  text-decoration: none;
+  color:darkred;
+  border:1px solid darkred;
+  padding:20px;
+  margin:40px;
+}
+
+.message_title{
+  display:flex;
+  margin-bottom:10px;
+}
+
+.message_name{
+  font-size: 16px;
+  color:#434A54;
+}
+
+.message_date{
+  font-size: 12px;
+  color:#999;
+  margin-left:10px;
+}
+
+.message_main{
+  font-size: 14px;
+  color:#434A54;
+  margin-bottom:40px;
+}
+
+.main_footer{
+  display: flex;
+}
+
+.send{
+  font-size: 16px;
+  color:white;
+  padding:0px 20px 0px 20px;
+  background-color: #38AEF0;
+  height:50px;
+  margin:0px 0px 0px 15px;
+  border:none;
+}
+
+.form-message{
+  background-color: white;
+  width:100%;
+  height:50px;
+}
+
+.form{
+  height:50px;
+  padding-left:10px;
+  border:none;
+  display: flex;
+}
+
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
